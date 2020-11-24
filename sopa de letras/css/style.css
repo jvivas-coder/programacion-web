@@ -1,0 +1,119 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+
+
+li, a, button{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #EDF0F1;
+	text-decoration: none;
+	
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 20px; 
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+	margin: 0;
+	background-color: #24252A;
+	top: 80px;
+	
+}
+
+
+.nav_links {
+	list-style: none;
+}
+.nav_links li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav_links li a{
+	transition: all 0.3s ease 0s;
+	
+}
+
+.nav_links li a:hover {
+	color:#0088A9
+	
+}
+button{
+	padding: 9px 25px;
+	background-color: rgba(0,136,169,1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	
+}
+
+button:hover {
+	background-color: rgba(0,136,169,0.8);
+}
+
+
+
+#contenedor {
+	float: left;
+	width: 856px;
+	font-family: montserrat, sans-serif;
+	font-style: normal;
+}
+
+.listapalabras {
+	letter-spacing: 0.5em;
+	margin: 30px 30px;
+	position: absolute;
+	top: 1px;
+	left: 1030px;
+	width: 400px;
+	height: 412px;
+}
+.tam {
+	font-size: 140%;
+	letter-spacing: 0.80em;
+	margin: 30px 30px;
+	font-weight: 300;
+	float: left;
+	width: 677px;
+	position: absolute;
+	top: -3px;
+	left: 158px;
+}
+.div2{
+	margin-left: 800; 
+}
+.caja{
+	position: relative;
+	display: inline-block;
+	top: 10px;
+	left: -45px;
+ 
+}
+.texto1{
+	position:absolute;
+	top: 40px;
+	font-size: 40px;
+	left: 30px;
+		
+}
+.tituloh1{
+		color: rgba(79,133,136,1.00);
+	font-size: 50px;
+	font-family: montserrat, sans-serif;
+}
+.tituloh2{
+		color: rgba(79,133,136,1.00);
+	font-size: 30px;
+	font-family: montserrat, sans-serif;
+}
+
